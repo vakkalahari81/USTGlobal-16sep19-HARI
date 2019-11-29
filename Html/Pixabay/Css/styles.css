@@ -1,0 +1,88 @@
+header{
+             background-color: aqua;
+             background-image:url("C:/Users/HARI VAKKALA/Desktop/Pixabay/images/whale-1118876_960_720.jpg");
+}
+.topnav{
+
+    /* background-color: #333; */
+    overflow: hidden;
+}
+.topnav a {
+    float:left;
+    color: #f2f2f2;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav1 a{
+    float:right;
+    padding: 20px;
+}
+button{
+    float:right;
+    border-radius: 35px;
+    background-color: #2471a3 ;
+    margin-top: 20px;
+    color: #aed6f1 ;
+}
+#abc{
+             font-size: 25px;
+}
+input{
+     
+                margin-top:0px;
+                margin-left:340px;
+                width: 600px;
+                height:48px;
+                border-radius: 25px;
+}
+.topnav2{
+                padding-top: 250px;
+                padding-left: 380px;
+                color:#00FF00;
+}
+.topnav3{
+    margin-left:340px;
+    color:#00FFFF;
+}
+.topnav4{
+    margin-left:440px;
+    color:#00FFFF;
+}
+figure{
+    margin: 0px;
+    padding: 0px;
+}
+figure img{
+    width: 204px;
+    height: 300px;
+    border: 1px solid aliceblue;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 8px;   
+    
+}
+[type="submit"]{
+    width:150px;
+    margin-top:60px;
+    margin-left:500px;
+    background-color: #2471a3;
+}
+h2{
+    margin-left:360px;
+    margin-top:120px;
+}
+h4{
+    margin-left:100px;
+}
+#a3{
+    margin-left:460px;
+    text-decoration: none;
+}
+#a4{
+    margin-left:460px;
+
+}
+#a5{
+    margin-left:360px;
+}

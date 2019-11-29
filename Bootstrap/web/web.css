@@ -1,0 +1,16 @@
+navbar{
+    background-color:solid black;
+    color: white;
+    text-align: center;
+}
+
+div[id="header"]{
+    color: black;
+    font-size: 30px;
+    font-family: Arial;
+    background-color: aliceblue;
+    background-size: cover;
+
+
+
+}

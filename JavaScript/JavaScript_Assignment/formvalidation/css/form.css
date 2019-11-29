@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+     background-color:cyan; 
+     background-image: url('C:/Users/HARI VAKKALA/Desktop/JavaScript/formvalidation/images/lake-4519623_960_720.jpg');
+     margin-top: 120px;
+}
+h1{
+    color: brown;
+    margin-left: 100px;
+}
+input[type="text"]{
+       height: 30px;
+       width: 240px;
+       border: 1px solid rebeccapurple;
+       border-radius: 25px;
+       padding-left: 15px;
+
+
+}
+input[type="password"]{
+    height: 30px;
+     width: 240px;
+     border: 1px solid rebeccapurple;
+     border-radius: 25px;
+     padding-left: 15px;
+     text-shadow: none;
+
+}
+button{
+    padding: 10px;
+    border-radius:45px;
+    margin-top: 15px;
+    color: blue;
+}
+div{
+    background-color: brown;
+    width: 300px;
+    margin-left: 560px;
+    font-size: 25px;
+    color: gold;
+    background-image: url('C:/Users/HARI VAKKALA/Desktop/JavaScript/formvalidation/images/moon-4522299__340.jpg');
+}

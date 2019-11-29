@@ -1,0 +1,12 @@
+<div class="col-md-8 float-left card card-body">
+    <div class="card card-body" *ngFor="let car of Cars">
+         <img src="{{car.imgUrl}}" alt=" " (click)="sendCar(car)">
+        <h1> {{car.name}}</h1>
+        <p>Model : 1945
+
+            The Maruti Swift has 1 Diesel Engine and 1 Petrol Engine on offer.
+             The Diesel engine is 1248 cc while the Petrol engine is 1197 cc.
+             Depending upon the variant and fuel type the Swift has a mileage of 22.0 to 28.4 kmpl.
+              The Swift is a 5 seater Hatchback and has a length of 3840mm. </p>
+        </div>
+</div>

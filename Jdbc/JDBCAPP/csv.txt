@@ -1,0 +1,5 @@
+17,hari,10000,m
+18,kohli,10000,m
+18,rohit,10000,m
+19,dhoni,10000,m
+20,sikhar,20000,m

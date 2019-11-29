@@ -1,0 +1,35 @@
+<h1 [innerText]= 'name'></h1>
+<img [src] ="imgurl" alt=" ">
+<h2 [style.color] = "colorName" [class.bg-dark] = "isActive" [class.bg-primary] = "!isActive">{{address} }</h2>
+<table class="table table-dark table-bordered table-stripped"> <!--  class="table table-dark table-bordered table-stripped" -->
+    <thead>
+            <tr>
+                <th>name</th>
+                <th>Age</th>
+                <th [attr.colSpan]="colSpanvalue" >contact Number</th>
+            </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Hari</td>
+            <td>21</td>
+            <td>98945945454</td>
+            <td>08594584954</td>
+        </tr>
+
+        <tr>
+            <td>jaggu</td>
+            <td>21</td>
+            <td>98945945454</td>
+            <td>08594584954</td>
+        </tr>
+
+        <tr>
+                <td>Rafi</td>
+                <td>21</td>
+                <td>98945945454</td>
+                <td>08594584954</td>
+        </tr>
+    </tbody>
+</table>

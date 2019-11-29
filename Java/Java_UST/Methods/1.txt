@@ -1,0 +1,203 @@
+package overloading;
+
+import java.util.Scanner;
+
+public class Month {
+	
+	public static String monthName;
+	public static String setWeek;
+	static int month;
+	static int week;
+	
+	Month(int input,int weeek)
+	{
+		if(input==0 ||(input>12))
+		{
+			System.out.println("Error: Month number must be between 1 and 12");
+		}
+		else if(input<0||week<0)
+		{
+			System.out.println("Error: Month and Week number must be positive");
+		}
+		 setMonthName();
+		 setWeek();
+		 printWeek();
+		 printMonth();
+	  }
+	void setWeek()
+	{
+		switch(week)
+		{
+		    case 1:
+		    	setWeek = "sunday";
+		    	break;
+		    case 2:
+		    	setWeek ="monday";
+		    	break;
+		    case 3:
+		    setWeek ="Tuesday";
+		    	break;
+		    case 4:
+		    	setWeek ="Wednesday";
+		    	break;
+		    case 5:
+		    	setWeek ="thursday";
+		    	break;
+		    case 6:
+		    	setWeek ="friday";
+		    	break;
+		    case 7:
+		    	setWeek ="saturday";
+		    	break;
+		    default:
+		    		System.out.print("Error: Week Number Should be range in 1 to 7");
+		    			
+		}
+	}
+	
+	void setMonthName()
+	{
+		 switch(month)
+		 {
+           case 1:
+                monthName = "January";
+                break;
+           case 2:
+        	   monthName = "February";
+               break;
+           case 3:
+        	   monthName = "March";
+               break;
+           case 4:
+        	   monthName = "April";
+               break;
+           case 5:
+        	   monthName = "May";
+               break;
+           case 6:
+        	   monthName = "June";
+               break;
+           case 7:
+        	   monthName = "July";
+               break;
+           case 8:
+        	   monthName = "August";
+               break;
+           case 9:
+        	   monthName = "September";
+               break;
+           case 10:
+        	   monthName = "Octomber";
+               break;
+           case 11:
+        	   monthName = "November";
+               break;
+           case 12:
+        	   monthName = "December";
+               break;
+               
+	     }
+	}
+	public void printWeek()
+	{
+		switch(week)
+		{
+		  case 1:
+			  		System.out.print(setWeek+"-");
+			  		break;
+		  case 2:
+		    		System.out.print(setWeek+"-");
+		  	    	break;
+		  case 3:
+		  		   System.out.print(setWeek+"-");
+		  	       break;
+		  case 4:
+		  		   System.out.print(setWeek+"-");
+		  		   break;
+		  case 5:
+		  		   System.out.print(setWeek+"-");
+		  		   break;
+		  case 6:
+		  		   System.out.print(setWeek+"-");
+		  		   break;
+		  case 7:
+		  		  System.out.print(setWeek+"-");
+		  		  break;
+		
+		}
+	}
+	public void printMonth()
+	{
+		switch(month)
+		{
+		    case 1:
+		    		System.out.print(monthName+"-");
+		    		break;
+		    case 2:
+	    		System.out.print(monthName+"-");
+	    		break;
+	    		
+		    case 3:
+	    		System.out.print(monthName+"-");
+	    		break;
+	    		
+		    case 4:
+	    		System.out.print(monthName+"-");
+	    		break;
+	    		
+		    case 5:
+	    		System.out.print(monthName+"-");
+	    		break;
+	    		
+		    case 6:
+	    		System.out.print(monthName+"-");
+	    		break;
+	    		
+		    case 7:
+	    		System.out.print(monthName+"-");
+	    		break;
+	    		
+		    case 8:
+	    		System.out.print(monthName+"-");
+	    		break;
+	    		
+		    case 9:
+	    		System.out.print(monthName+"-");
+	    		break;
+	    		
+		    case 10:
+	    		System.out.print(monthName+"-");
+	    		break;
+		    case 11:
+	    		System.out.print(monthName+"-");
+	    		break;
+	    		
+		    case 12:
+	    		System.out.print(monthName+"-");
+	    		break;    		
+		}
+	}
+	public static void printYear(int year)
+	{
+		System.out.print(year);
+	}
+	public static void main(String...args)
+	{
+		 Scanner sc=new Scanner(System.in);
+		 
+		 System.out.println("Enter the day number between 0 to 7");
+		 week=sc.nextInt();
+
+		 System.out.println("Enter the Month Numebr");
+		 month =sc.nextInt();
+		 
+		 System.out.println();
+		 System.out.println("Enter the year");
+		 int year = sc.nextInt();
+		 
+		 Month m = new Month(month,week);
+		 printYear(year);
+		 
+	}
+
+}
